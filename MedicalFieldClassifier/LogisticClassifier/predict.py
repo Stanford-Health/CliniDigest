@@ -7,8 +7,14 @@ import pickle
 def predict(vectorize_type, csv_file_path):
     # process data
     column_dict = read_csv_to_dict(csv_file_path)
+    for filename in os.listdir('vectorizer'):
+            if filename == vectorize_type:
+                filepath = os.path.join('vectorizer', filename)
+                with open(filepath, 'rb') as file:
+                    vectorizer = pickle.load(file)
     string_inputs = [column_dict["Title"][i] + column_dict["Description"][i] for i in range(len(column_dict["Description"]))]
-    processed_clinical_trial_descriptions = string_to_vector(vectorize_type, string_inputs)
+    processed_clinical_trial_descriptions = vectorizer.transform(string_inputs)
+    processed_clinical_trial_descriptions = processed_clinical_trial_descriptions.toarray()
     # Note: Gastroenterolgy and Other is omitted here
     medical_fields = ["Somnology", "Gynecology", "Obstetrics", "Cardiology", "General Physiology", "Endocrinology", "Bariatrics", "Psychiatry", "Oncology", "Pulmonology", "Chronic pain / diseases"]#, "Other"]
     optimal_thresholds = np.load('LogisticClassifier/optimal_thresholds.npy').tolist()
