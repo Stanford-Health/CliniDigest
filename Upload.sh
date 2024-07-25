@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#SBATCH --job-name=uploading
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
+#SBATCH --account=mpsnyder
+#SBATCH --time=1-0:00:00
+#SBATCH --output=output/Upload.out
+#SBATCH --error=error/Upload.err
+#SBATCH --mail-user=FILL_IN
+#SBATCH --mail-type=END,FAIL
+
+
+current_date=$(date +%F)
+
+date_folder="$current_date"
+references_folder="$date_folder/references"
+summaries_folder="$date_folder/summaries"
+
+mkdir "$date_folder"
+mkdir "$references_folder"
+mkdir "$summaries_folder"
+
+cp -r internal_files/devices_gpt_output/* "$summaries_folder"
+cp -r internal_files/devices_references/* "$references_folder"
+
+cp -r internal_files/devices_gpt_output/* website_backup/summaries
+cp -r internal_files/devices_references/* website_backup/references
+
+find website_backup/references -type f -empty -delete
+find website_backup/summaries -type f -empty -delete

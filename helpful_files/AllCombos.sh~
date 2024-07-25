@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#SBATCH --job-name=combos
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --partition=batch
+#SBATCH --account=mpsnyder
+#SBATCH --time=0-1:00:00
+#SBATCH --output=/labs/mpsnyder/arjo/gpt_code/output/%j.out
+#SBATCH --error=/labs/mpsnyder/arjo/gpt_code/error/%j.err
+
+module purge
+
+. /labs/mpsnyder/arjo/gpt_code/venv/bin/activate
+srun python /labs/mpsnyder/arjo/gpt_code/AllCombos.py
