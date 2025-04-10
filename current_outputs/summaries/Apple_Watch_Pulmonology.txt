@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The Apple Watch serves as a pivotal tool in pulmonology trials by facilitating early detection and management of respiratory illnesses through the collection of wearable device data. Its use in forecasting infection onset prior to symptom manifestation [1], monitoring asthma symptoms and exacerbation [2], and aiding in the development of algorithms to classify respiratory viral infections [3], underscores its potential in enhancing patient outcomes. Furthermore, its role in evaluating the effectiveness of health education interventions on protective behaviors against respiratory infections [4] and supporting prehabilitation programs for thoracic surgery patients [5] highlights its versatility and utility in respiratory health management.

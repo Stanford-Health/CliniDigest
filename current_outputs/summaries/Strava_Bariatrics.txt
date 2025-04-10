@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of Strava in bariatrics trials is to leverage mobile technology to combat the rising trend of obesity and sedentary behavior among adolescents by promoting physical activity outside the traditional school setting [1]. By integrating Strava into a structured ten-week intervention, the trial aims to enhance physical activity adherence and enjoyment, thereby improving body composition and fitness in overweight or obese adolescents [1]. This approach addresses the limitations of conventional physical education by extending health-promoting activities into the students' free time, utilizing the widespread engagement with mobile devices as a tool for positive behavioral change [1].

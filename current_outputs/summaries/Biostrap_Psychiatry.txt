@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of a Biostrap in psychiatry trials is to leverage wearable technology for the monitoring and management of mental health conditions. In the TeenWell Study, the focus is on evaluating the effectiveness of a digital intervention for adolescents experiencing depressive symptoms [1], while the LA-CEAL 4.0 project explores the use of biofeedback from a wrist-worn sensor to aid healthcare workers in managing stress and burnout [2]. These trials underscore the potential of Biostrap devices in providing real-time, objective data that can inform personalized treatment strategies and support mental well-being.

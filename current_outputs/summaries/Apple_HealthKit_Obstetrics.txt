@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of an Apple HealthKit in obstetrics trials, particularly in the management of gestational diabetes mellitus (GDM), is to leverage mobile technology for improving maternal and fetal outcomes through enhanced monitoring and personalized care. The trial titled "A Novel Device for Gestational Diabetes Control" [1] underscores the potential of mobile apps in obstetric care by comparing the metabolic outcomes of women with GDM using the LUMEN device and app against a control group using a standard mobile tracking app. This highlights the evolving role of digital health tools, like Apple HealthKit, in facilitating real-time data collection, patient engagement, and tailored interventions in obstetrics trials [1].

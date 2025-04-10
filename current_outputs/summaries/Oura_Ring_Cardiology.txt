@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of an Oura Ring in cardiology trials, as evidenced by the "Reducing Arterial Stiffness with a Smart Ring and AI-Guided Exercise" study [2], is to explore its potential in monitoring and improving cardiovascular health through technology-driven interventions. By leveraging AI-based exercise guidance and measuring changes in arterial stiffness and cardiovascular age, the Oura Ring serves as both a diagnostic tool and a personalized health advisor. This innovative approach aims to enhance traditional cardiology practices by providing real-time data and tailored exercise protocols, potentially leading to more effective management and prevention strategies for cardiovascular diseases.

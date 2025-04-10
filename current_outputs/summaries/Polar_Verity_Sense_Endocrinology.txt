@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The Polar Verity Sense, a versatile optical heart rate sensor, serves a pivotal role in endocrinology trials, particularly those investigating the impact of physical interventions on conditions like osteoporosis [1]. By providing accurate, real-time heart rate data, the device enables researchers to monitor the intensity and physiological effects of High-Intensity Interval Training (HIIT) on participants, ensuring that exercises are performed within safe and effective thresholds. This is crucial in trials like the one assessing HIIT's effectiveness on bone health in older women, where precise adherence to exercise intensity is essential for evaluating the intervention's impact on bone mineral density and turnover markers [1].

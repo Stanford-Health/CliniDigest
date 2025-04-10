@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The Withings Body+ scale, as a consumer mHealth device, could play a crucial role in cardiology trials, particularly in interventions aimed at enhancing heart failure self-care through technology. In the ICardia4HF trial [1], the incorporation of mHealth apps and sensor devices underlines the potential of smart scales like the Withings Body+ to monitor weight and body composition, critical parameters in managing heart failure. By providing accurate, real-time data, the Withings Body+ could support the MyApps intervention in improving self-care behaviors and potentially reducing cardiovascular hospitalizations or death, aligning with the trial's objectives to leverage technology for better health outcomes in heart failure patients [1].

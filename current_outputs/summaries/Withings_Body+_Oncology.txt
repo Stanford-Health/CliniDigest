@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The Withings Body+ could serve a pivotal role in oncology trials by providing continuous, non-invasive monitoring of vital signs, which aligns with the objectives of the EMBRaCE-GM study to assess the feasibility and acceptability of such technologies during cancer treatment [1]. Its utility in capturing real-time health data could offer invaluable insights into patient well-being and treatment efficacy, particularly in trials like those assessing the impact of MR-guided radiotherapy on quality of life in pancreatic cancer patients [2]. By integrating seamlessly into a common data collection platform, the Withings Body+ could enhance patient monitoring, thereby facilitating personalized and adaptive cancer care strategies.

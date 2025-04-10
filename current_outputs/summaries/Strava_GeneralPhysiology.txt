@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+Strava, a mobile platform, plays a crucial role in general physiology trials by facilitating social support and engagement in physical activities, particularly among populations facing unique challenges such as those with spinal cord injury (SCI) [1]. It also serves as a reliable tool for collecting data and monitoring adherence to training programs in studies aimed at preventing injuries among runners [2]. Through these applications, Strava demonstrates its potential to enhance physical activity participation, support community building among users, and contribute valuable data for research purposes, thereby underscoring its significance in the realm of exercise science and rehabilitation.

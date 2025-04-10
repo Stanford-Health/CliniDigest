@@ -1,24 +1,35 @@
 import json
 import subprocess
+import regex as re
 from datetime import datetime, timedelta
 from util import *
 
 
 def search_devices(study, data, Dict_to_add):
-    if isinstance(data, dict):
-        for key, value in data.items():
-            search_devices(study, value, Dict_to_add)
-    elif isinstance(data, list):
-        for item in data:
-            search_devices(study, item, Dict_to_add)
-    elif isinstance(data, str):
-        for search_term in alg_search_terms:
-            if search_term in data.lower():
-                array_to_add = ['https://clinicaltrials.gov/study/' + study["identificationModule"]["nctId"], study["identificationModule"]["briefTitle"], study["descriptionModule"]["briefSummary"]]
-                device_name = alg_search_terms[search_term]
-                if array_to_add not in Dict_to_add[device_name]:
-                    Dict_to_add[device_name][0] += 1
-                    Dict_to_add[device_name].append(array_to_add)
+    collected_values = []
+
+    def collect_values(obj):
+        """Recursively collect all values from the JSON object."""
+        if isinstance(obj, dict):
+            for value in obj.values():
+                collect_values(value)
+        elif isinstance(obj, list):
+            for item in obj:
+                collect_values(item)
+        elif isinstance(obj, str):
+            collected_values.append(obj.lower()) 
+
+    collect_values(data)
+    
+    full_text = " ".join(collected_values)
+    
+    for search_term in alg_search_terms:
+        if re.search(search_term, full_text, re.IGNORECASE):
+            array_to_add = ['https://clinicaltrials.gov/study/' + study["identificationModule"]["nctId"], study["identificationModule"]["briefTitle"], study["descriptionModule"]["briefSummary"]]
+            device_name = alg_search_terms[search_term]
+            if array_to_add not in Dict_to_add[device_name]:
+                Dict_to_add[device_name][0] += 1
+                Dict_to_add[device_name].append(array_to_add)
  
                    
 def curl(base_url, url, Device_Dict):

@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of MyFitnessPal in gastroenterology trials, such as the study on the effects of Lactobacillus acidophilus MPH734 supplementation on lactose metabolism and gastrointestinal symptoms [1], is to provide a comprehensive platform for participants to accurately track their dietary intake, symptoms, and medication adherence. By leveraging MyFitnessPal's extensive food database and user-friendly interface, researchers can gather high-quality, real-time data on participants' dietary habits and symptom fluctuations, facilitating a more nuanced analysis of the intervention's efficacy [1]. This capability is crucial in trials where dietary factors play a significant role in modulating gastrointestinal health and treatment outcomes.

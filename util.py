@@ -2,8 +2,6 @@ import json
 import os
 import configparser
 
-input_output_folder = '/labs/mpsnyder/arjo/clinical_trials_code/'
-
 
 def conversion(Dict, json_name):
     json_object = json.dumps(Dict, indent=4)
@@ -18,5 +16,5 @@ def get_file_contents(FileName):
 def read_config():
     config = configparser.ConfigParser()
     config.optionxform = str
-    config.read(r'/labs/mpsnyder/arjo/gpt_code/internal_files/config.ini')
+    config.read(r'internal_files/config.ini')
     return config

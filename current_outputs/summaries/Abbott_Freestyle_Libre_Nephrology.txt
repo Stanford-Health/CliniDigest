@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The Abbott Freestyle Libre, a Continuous Glucose Monitoring (CGM) system, plays a crucial role in nephrology trials by providing detailed insights into glucose fluctuations and their management in patients with kidney-related conditions. Specifically, in the context of kidney transplant recipients, the Freestyle Libre is instrumental in observing glucose variability and predicting New-Onset Diabetes After Transplantation (NODAT), a significant post-transplant complication [2]. Although not directly mentioned in the first trial, the importance of metabolic health in hemodialysis patients underscores the potential utility of CGM systems like the Freestyle Libre in broader nephrology research, including studies on sarcopenia and its associated risks [1].

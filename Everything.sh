@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #SBATCH --job-name=everything
-#SBATCH --account=mpsnyder
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --mem=32000
@@ -11,6 +10,7 @@
 #SBATCH --time=1-0:00:00
 #SBATCH --mail-user=FILL_IN
 #SBATCH --mail-type=END,FAIL
+#SBATCH --account=FILL_IN
 
 get_job_id() {
     echo "$1" | awk '{print $NF}'
@@ -25,12 +25,12 @@ download_job=$(sbatch <<DOWNLOAD
 #SBATCH --mem=128000
 #SBATCH --cpus-per-task=1
 #SBATCH --partition=batch
-#SBATCH --account=mpsnyder
 #SBATCH --job-name=Download
 #SBATCH --output=auto/DandF.out
 #SBATCH --error=auto/DandF.err
 #SBATCH --mail-user=FILL_IN
 #SBATCH --mail-type=FAIL
+#SBATCH --account=FILL_IN
 Download.sh
 DOWNLOAD
 )
@@ -50,9 +50,9 @@ update_job=$(sbatch --dependency=afterok:$download_job_id <<UPDATE
 #SBATCH --mem=32000
 #SBATCH --output=auto/UpdateMaster.out
 #SBATCH --error=auto/UpdateMaster.err
-#SBATCH -A mpsnyder
 #SBATCH --mail-user=FILL_IN
 #SBATCH --mail-type=FAIL
+#SBATCH --account=FILL_IN
 UpdateMasterLists.sh
 UPDATE
 )
@@ -70,7 +70,7 @@ format_job=$(sbatch --dependency=afterok:$update_job_id <<FORMAT
 #SBATCH --mem=32000
 #SBATCH --output=auto/Format.out
 #SBATCH --error=auto/Format.err
-#SBATCH -A mpsnyder
+#SBATCH --account=FILL_IN
 #SBATCH --mail-user=FILL_IN
 #SBATCH --mail-type=FAIL
 FormatFiles.sh
@@ -90,7 +90,7 @@ gpt_job=$(sbatch --dependency=afterok:$format_job_id <<GPT
 #SBATCH --mem=32000
 #SBATCH --output=auto/Gpt.out
 #SBATCH --error=auto/Gpt.err
-#SBATCH -A mpsnyder
+#SBATCH --account=FILL_IN
 #SBATCH --mail-user=FILL_IN
 #SBATCH --mail-type=FAIL
 Gpt.sh
@@ -110,7 +110,7 @@ upload_job=$(sbatch --dependency=afterok:$gpt_job_id <<UPLOAD
 #SBATCH --mem=32000
 #SBATCH --output=auto/Upload.out
 #SBATCH --error=auto/Upload.err
-#SBATCH -A mpsnyder
+#SBATCH --account=FILL_IN
 #SBATCH --mail-user=FILL_IN
 #SBATCH --mail-type=FAIL,END
 /Upload.sh

@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of a Polar H in pulmonology trials is to provide a reliable and non-invasive method for monitoring and assessing cardiovascular responses to various rehabilitation interventions in patients with respiratory conditions. By measuring heart rate variability and other hemodynamic responses, the Polar H facilitates the evaluation of the immediate effects of innovative exercise modalities, such as high-intensity interval exercises in children with asthma [1], and supports the safety and efficacy assessment of novel rehabilitation interventions like low-intensity exercise with blood flow restriction in COPD patients [2]. This technology is crucial for tailoring and optimizing pulmonary rehabilitation programs to enhance patient outcomes.

@@ -143,7 +143,7 @@ def see_pipeline_values():
 
 
 def run_clear_master_lists():
-    command = ['sbatch', 'internal_files/RestartMasterLists.sh']
+    command = ['sbatch', 'helpful_files/RestartMasterLists.sh']
     try:
         subprocess.run(command, check=True)
         print("Script submitted successfully.")
@@ -469,8 +469,8 @@ def handle_search_term_modification(third_options):
                 updated_devices = [device for device in current_devices if device != chosen_device]
                 config_dict["Search Terms"][chosen_term] = ', '.join(updated_devices)
             else:
-                del config_dict["Search Terms"][search_term]
-                config.remove_option("AlgSearchTerms", search_term)
+                del config_dict["Search Terms"][chosen_term]
+                config.remove_option("AlgSearchTerms", chosen_term)
 
             new_search_term_list = old_search_term_list
 

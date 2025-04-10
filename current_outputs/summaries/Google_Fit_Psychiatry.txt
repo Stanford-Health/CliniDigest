@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+Google Fit, as a versatile mobile application, plays a pivotal role in psychiatry trials by facilitating the continuous monitoring and management of patient health behaviors and symptoms relevant to mental health conditions. Through its capabilities, it can support interventions like the LvL UP pilot trial [1], which focuses on lifestyle modifications to prevent and manage non-communicable diseases and common mental disorders by tracking physical activity, diet, and stress. Similarly, it aids in the assessment and management of dementia symptoms [2], by enabling caregivers to monitor vital health metrics and activities, underscoring its utility in enhancing personalized care and intervention effectiveness in psychiatry research.

@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of Cronometer in gastroenterology trials is to meticulously track and analyze dietary intake and its subsequent impact on gastrointestinal health and disease outcomes. In the context of a preoperative ketogenic diet aimed at reducing hepatic steatosis, Cronometer can be instrumental in ensuring participants adhere to the stringent dietary requirements necessary to achieve a reduction in liver fat content [1]. Similarly, in studies investigating the effects of exercise on the gut microbiome, Cronometer can provide detailed dietary data to isolate the effects of exercise from dietary variations, thereby accurately assessing its impact on gut microbiota and metabolic activity [2].

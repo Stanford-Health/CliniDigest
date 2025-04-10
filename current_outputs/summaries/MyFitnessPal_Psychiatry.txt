@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The purpose of MyFitnessPal in psychiatry trials, particularly in the context of perinatal depression and anxiety (PDA), is to leverage its comprehensive dietary tracking capabilities to support interventions aimed at optimizing the gut microbiome. By facilitating detailed monitoring of participants' dietary intake, MyFitnessPal enables researchers to correlate specific dietary patterns with changes in the gut microbiome and subsequent effects on PDA severity and onset [1]. This aligns with the trial's focus on dietary/supplemental interventions to manage PDA, underscoring the app's potential as a critical tool in psychiatric research for implementing and tracking diet-based mental health interventions.

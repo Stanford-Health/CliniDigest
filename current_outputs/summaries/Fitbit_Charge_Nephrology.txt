@@ -1,0 +1,3 @@
+Date: 2025-04-03
+
+The Fitbit Charge serves as a pivotal tool in nephrology trials by facilitating the precise monitoring and enhancement of patient health behaviors, particularly in the realm of physical activity. In the context of urinary urgency phenotyping [1], it can provide valuable insights into the relationship between activity levels and urinary symptoms, potentially uncovering novel therapeutic targets. Moreover, its application in evaluating the efficacy of physical activity interventions in adolescents with Chronic Kidney Disease (CKD) [2] underscores its utility in assessing and promoting exercise adherence, a critical factor in managing CKD progression and improving patient outcomes.
