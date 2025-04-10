@@ -6,7 +6,7 @@ This repository contains a detailed automated pipeline for processing and analyz
 
 To start the automated pipeline, follow these steps:
 
-1. Fill in the necessary SLURM job details in each script (MainCode.sh, WebsiteCode.sh, etc.).
+1. Fill in the necessary SLURM job details in each script.
 
 2. Replace the placeholders with the full paths to the respective script files.
 
