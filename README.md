@@ -15,7 +15,7 @@ To start the automated pipeline, follow these steps:
 ## Dependencies
 
 - SLURM: The pipeline uses SLURM job scheduler to manage job submission and dependencies.
-- Python: The pipeline includes Python scripts (MainCode.py, WebsiteCode.py) for data processing and filtering.
+- Python: The pipeline includes Python scripts for data processing and filtering.
 - Dependencies: Any dependencies specific to each script should be documented within the script itself.
 
 # 🛠 Clinical Trial Summarization Pipeline Management
