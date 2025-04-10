@@ -5,12 +5,13 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
 #SBATCH --partition=batch
-#SBATCH --account=mpsnyder
 #SBATCH --time=0-1:00:00
-#SBATCH --output=/labs/mpsnyder/arjo/gpt_code/output/%j.out
-#SBATCH --error=/labs/mpsnyder/arjo/gpt_code/error/%j.err
+#SBATCH --output=output/Download.out
+#SBATCH --error=error/Download.err
+#SBATCH --mail-user=FILL_IN
+#SBATCH --account=FILL_IN
 
 module purge
 
-. /labs/mpsnyder/arjo/gpt_code/venv/bin/activate
-srun python /labs/mpsnyder/arjo/gpt_code/helpful_files/AllCombos.py
+. venv/bin/activate
+srun python helpful_files/AllCombos.py

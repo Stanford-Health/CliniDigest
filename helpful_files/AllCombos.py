@@ -2,11 +2,9 @@ import json
 import os
 import sys
 
-sys.path.append('/labs/mpsnyder/arjo/gpt_code')
-
 from util import *
 
-input_folder = r'/labs/mpsnyder/arjo/gpt_code/devices_master_lists'
+input_folder = r'devices_master_lists'
 
 result = {}
 

@@ -1,5 +1,5 @@
 {
-    "Abbott_Freestyle_Libre_2": [
+    "Abbott_Freestyle_Libre": [
         0
     ],
     "Actigraph_CentrePoint_Insight": [
@@ -8,10 +8,10 @@
     "Apple_HealthKit": [
         0
     ],
-    "Apple_Watch_5": [
+    "Apple_Watch": [
         0
     ],
-    "Biostrap_Evo": [
+    "Biostrap": [
         0
     ],
     "Coros_Pace": [
@@ -20,19 +20,22 @@
     "Cronometer": [
         0
     ],
-    "Dexcom_G6_Pro": [
+    "Dexcom_G_Pro": [
         0
     ],
-    "Dreem_Headband_3": [
+    "Dreem_Headband": [
         0
     ],
-    "Fitbit_Charge_4": [
+    "Elite_HRV": [
+        0
+    ],
+    "Fitbit_Charge": [
         0
     ],
     "Fitbit_Sense": [
         0
     ],
-    "Garmin_Fenix_7S": [
+    "Garmin_Fenix": [
         0
     ],
     "Google_Fit": [
@@ -47,16 +50,13 @@
     "MyFitnessPal": [
         0
     ],
-    "Nutrisense_CGM": [
+    "Oura_Ring": [
         0
     ],
-    "Oura_Ring_Gen_3": [
+    "Polar_H": [
         0
     ],
-    "Polar_H10": [
-        0
-    ],
-    "Polar_Vantage_V2": [
+    "Polar_Vantage": [
         0
     ],
     "Polar_Verity_Sense": [
@@ -68,10 +68,10 @@
     "Strava": [
         0
     ],
-    "Suuntu_HR_Belt": [
+    "Suunto_HR_Monitor": [
         0
     ],
-    "Whoop_Strap_4.0": [
+    "Whoop_Strap": [
         0
     ],
     "Withings_Body+": [
